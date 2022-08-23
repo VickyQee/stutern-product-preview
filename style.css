@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  border:0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.product-section {
+  background-color: hsl(30, 38%, 92%);
+  height:100vh;
+  padding: 70px 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  -webkit-box-shadow: 0px 1px 9px 0px rgba(50, 50, 50, 0.66);
+  -moz-box-shadow:    0px 1px 9px 0px rgba(50, 50, 50, 0.66);
+  box-shadow:         0px 1px 9px 0px rgba(50, 50, 50, 0.66);
+}
+
+.product-container {
+  width: 650px;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  border-radius: 20px;
+  background-color: hsl(158, 36%, 37%);
+}
+
+.product-img-container {
+  height: 100%;
+  width: 325px;
+}
+
+img{
+  height: inherit;
+  width: inherit;
+  border-radius: 20px 0 0  20px;
+}
+
+.product-detail-container {
+  height: 100%;
+  width: 325px;
+  background-color: #fff;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px 40px;
+}
+
+.product-type {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  
+}
+
+.product-name {
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  line-height: 40px;
+  color:  hsl(212, 21%, 14%);
+}
+
+.product-description {
+  color: hsl(228, 12%, 48%);
+  line-height: 22px;
+}
+
+.product-price-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 37px;
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.old-product-price {
+  margin-left: 15px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 300;
+  text-decoration: line-through;
+}
+
+.btn {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(158, 37%, 16%);
+}
+
+.fa-solid  {
+  margin-right: 10px;
+}
